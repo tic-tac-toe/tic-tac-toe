@@ -1,0 +1,27 @@
+Lista wymagań
+
+Funkcjonalne:
+
+1.	Rejestracja nowego użytkownika / B
+2.	Logowanie / B
+3.	Chat pomiędzy użytkownikami w obrębie 1 gry / C
+4.	Modyfikacja ilości punktów przypisanych do użytkownika w zależności od wyniku / C
+5.	Toplista / C
+6.	Rozgrywka / A
+
+
+Niefunkcjonalne:
+
+1.	Wybór kolorów/ikon kółka i krzyżyka / C
+2.	Interfejs gry / A
+
+A – wymagania krytyczne.
+B – istotne.
+C – mało ważne.
+
+
+*SŁOWNIK
+Interfejs – przyciski funkcjonalne typu zaloguj, rozpocznij grę itp. Oraz plansza gry
+Uzytkownik - rekord w bazie danych zawierający dane logowania (login i hasło) oraz wynik
+Toplista – posortowana malejąco lista użytkowników ze względu na wynik
+
