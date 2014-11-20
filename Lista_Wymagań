@@ -2,8 +2,14 @@ Lista wymagań
 
 Funkcjonalne:
 
-1.	Rejestracja nowego użytkownika / B
-2.	Logowanie / B
+1.	Rejestracja nowego użytkowni / B
+  a.	Sprawdzenie czy login nie jest zajęty
+  b.	Weryfikacja czy długość hasła jest wystarczająca
+  c.	Weryfikacja użytkownika linkiem wysyłanym na pocztę 
+2.	Logowanie/ b
+  a.	Sprawdzenie czy użytkownik jest zarejestrowany
+  b.	Sprawdzenie czy login i hasło jest poprawne
+  c.	Przypomnienie hasła
 3.	Chat pomiędzy użytkownikami w obrębie 1 gry / C
 4.	Modyfikacja ilości punktów przypisanych do użytkownika w zależności od wyniku / C
 5.	Toplista / C
@@ -13,15 +19,14 @@ Funkcjonalne:
 Niefunkcjonalne:
 
 1.	Wybór kolorów/ikon kółka i krzyżyka / C
-2.	Interfejs gry / A
+2.	Wybór rozmiaru planszy
+
+3.	Interfejs gry / A
+  a.	Przyciski funkcyjne(star gry, koniec gry, poddaj się itp.)
+  b.	Okienko chatu
+  c.	Informacje o przeciwniku
+  d.	Plansza gry
 
 A – wymagania krytyczne.
 B – istotne.
 C – mało ważne.
-
-
-*SŁOWNIK
-Interfejs – przyciski funkcjonalne typu zaloguj, rozpocznij grę itp. Oraz plansza gry
-Uzytkownik - rekord w bazie danych zawierający dane logowania (login i hasło) oraz wynik
-Toplista – posortowana malejąco lista użytkowników ze względu na wynik
-
